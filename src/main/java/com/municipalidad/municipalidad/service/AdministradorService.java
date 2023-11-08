@@ -1,8 +1,11 @@
 package com.municipalidad.municipalidad.service;
 
+import org.springframework.stereotype.Service;
+
 import com.municipalidad.municipalidad.entity.Administrador;
 import com.municipalidad.municipalidad.shared.BaseService;
 
-public class AdministradorService extends BaseService<Administrador>{
-    
+@Service
+public class AdministradorService extends BaseService<Administrador> {
+
 }
